@@ -5,6 +5,7 @@ var frontMatter = require('yaml-front-matter')
 var Remarkable = require('remarkable')
 var remarkable = new Remarkable({
   linkify: true,
+  html: true,
   typographer: true
 })
 
